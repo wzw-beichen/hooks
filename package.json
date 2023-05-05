@@ -1,6 +1,6 @@
 {
   "name": "c-react-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "common react hooks",
   "main": "./dist/index.js",
   "scripts": {
