@@ -1,0 +1,26 @@
+{
+  "name": "c-hooks",
+  "version": "1.0.0",
+  "description": "common react hooks",
+  "main": "./dist/utils.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:production": "webpack --mode production"
+  },
+  "author": {
+    "name": "zwei",
+    "email": "277319623@qq.com"
+  },
+  "homepage": "https://github.com/wzw-beichen/data-deal",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

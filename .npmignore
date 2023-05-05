@@ -1,0 +1,7 @@
+# dependencies
+**/node_modules
+
+# production
+/src
+/webpack.config.js
+/tsconfig.json

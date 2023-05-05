@@ -1,0 +1,20 @@
+{
+  // 包含指定文件
+  "include": ["./src/*"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    // 重定向输出目录
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    // 允许编译javascript文件
+    "allowJs": true,
+    "moduleResolution": "node",
+    // 生成相应的 .d.ts文件
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    // 生成相应的.d.ts.map文件
+    // "declarationMap": true,
+  }
+}
